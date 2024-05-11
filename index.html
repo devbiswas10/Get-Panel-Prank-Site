@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get free Paid Panels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  body{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-color: #131212;
+    color: white;
+  }
+
+</style>
+
+<body>
+
+  <div class="cont">
+
+    <h1>Put The Pass Key🔑</h1>
+    <form action="" id="form">
+      <input placeholder="Password" type="password" id="user-val" required="give the pass key">
+      <input id="btn" type="submit">
+    </form>
+    <p id="msg" style="visibility: hidden;">Wrong Password💀</p>
+    <p style="text-align: center;">How To Use This Panel👇</p>
+   
+  
+  </div>
+ 
+    
+
+  <script>
+    const fomr = document.getElementById("form"),
+      btn = document.getElementById("btn");
+
+
+    btn.addEventListener("click", function () {
+      event.preventDefault();
+      const useval = document.getElementById("user-val").value
+      // console.log(useval);
+
+      let pass = "e4vx";
+
+      if (pass === useval) {
+        window.location.href = "./next-page.html";
+      }
+      if (pass !== useval) {
+        const msg = document.getElementById("msg");
+        msg.style.visibility = "visible"
+        msg.style.color = "red"
+      }
+
+    })
+  </script>
+</body>
+
+</html>
