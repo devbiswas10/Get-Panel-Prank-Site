@@ -1,8 +1,14 @@
 # Get-Panel-Prank-Site
-echo "# Get-Panel-Prank-Site" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/devbiswas10/Get-Panel-Prank-Site.git
-git push -u origin main
+for accessing  the site you need the password <br>
+pass word is `e4vx` <br>
+visit the site [click here](https://e4vxpanell.netlify.app/)
+
+<img src="./img/prank.png">
+<img src="./img/prank.png">
+
+## about creator
+author [tahsin zidane]((https://tahsinportfo.netlify.app/))
+
+contributor [dev biswas]((https://github.com/devbiswas10))
+
+
